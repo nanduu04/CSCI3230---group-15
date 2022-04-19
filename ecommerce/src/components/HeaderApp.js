@@ -18,7 +18,7 @@ export const HeaderApp = () => (
           height="30"
           className="d-inline-block align-top"
         />{" "}
-        Ecommerce Website
+        Final Project
       </Navbar.Brand>
       <ShoppingCart />
     </Container>

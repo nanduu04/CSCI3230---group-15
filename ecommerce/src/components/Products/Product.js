@@ -1,28 +1,58 @@
-import {
-    Box,
-    Heading,
-    Flex,
-    Link
-} from '@chakra-ui/react';
-import ProductCard from './Product/ProductCard'
-import Filters from './FilterDrawer'
-import Values from './Values';
-import { Link as lee } from 'react-router-dom'
-import { useSelector } from 'react-redux';
+import React from "react";
+import { Col, Card, Row, Button, Badge } from "react-bootstrap";
+import { saveLastInterestProduct } from "../../app/services/storageServices";
+import db from "../../app/db/db";
+import "../../assets/css/styles.css";
 
-export default function Products() {
-    const { products } = useSelector(state => state.products)
-    return (
-        <Box w="100%" color="gray.600" >
-            <Box p={6} textAlign={'center'} border={'none'} >
-                <Flex justifyContent={'center'} flexDirection={'row'}>
-                    <Heading >Display All Products...</Heading>
-                    <Filters />
-                </Flex>
-            </Box>
-            <Flex justifyContent={'center'} flexWrap={'wrap'} >
-                {products.map(product => <Link to={`/shop/${product.id}`} as={lee} ><ProductCard data={product} /></Link>)}
-            </Flex>
-        </Box >
-    );
-}
+export const Product = ({ item }) => {
+  const { title, image, price, description, category } = item;
+
+  const addProductToCart = ({ title, price, category }) => {
+    db.cart.add({
+      title: title,
+      price: price,
+      category: category,
+    });
+  };
+
+  return (
+    <div className="col-lg-4 d-flex align-items-stretch">
+      <Card style={{ marginBottom: "15px", padding: 10 }}>
+        <Row>
+          <Col xs={8}>
+            <Card.Img
+              className="mx-auto"
+              variant="top"
+              src={image}
+              style={{ height: 120, width: 120 }}
+            />
+          </Col>
+          <Col xs={4}>
+            <Badge pill bg="info">
+              {category}
+            </Badge>{" "}
+          </Col>
+        </Row>
+        <Card.Body>
+          <Card.Title>{title}</Card.Title>
+          <Card.Text>{description}</Card.Text>
+        </Card.Body>
+        <Row>
+          <Col>
+            <Button onClick={() => addProductToCart(item)} variant="warning">
+              Add To Cart
+            </Button>
+          </Col>
+          <Col>
+            <Button
+              onClick={() => saveLastInterestProduct(title)}
+              variant="primary"
+            >
+              Add <Badge bg="secondary">${price}</Badge>
+            </Button>
+          </Col>
+        </Row>
+      </Card>
+    </div>
+  );
+};
