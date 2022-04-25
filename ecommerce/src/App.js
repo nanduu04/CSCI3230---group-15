@@ -5,7 +5,7 @@ import { HeaderApp } from "./components/HeaderApp";
 import { ListProducts } from "./components/Products/ListProducts";
 import { AlertProduct } from "./components/Products/AlertProduct";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-// import HomePage from "./components/Homepage/homepage.js";
+import HomePage from "./components/Homepage/homepage.js";
 
 const App = () => {
   return (
@@ -14,8 +14,8 @@ const App = () => {
       <Container>
         <div className="App">
           <Router>
-            {/* <Route path='/' element={<Home />} />
-            <Route path='/products' element={<Products />} />
+            <Route path='/' element={<HomePage />} />
+            {/* <Route path='/products' element={<Products />} />
             <Route path='/products/:productId' element={<Product />} />
             <Route path='/login' element={<Login />} />
             <Route path='/signup' element={<SignUp />} />

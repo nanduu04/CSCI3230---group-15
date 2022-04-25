@@ -8,10 +8,12 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import CustomImageList from "./Images";
 import CardActions from "@mui/material/CardActions";
+import { HeaderApp } from "../HeaderApp";
 
 export default function HomePage() {
   return (
     <React.Fragment>
+      <HeaderApp />
       <CssBaseline />
       <Container maxWidth="lg">
         <Card sx={{ minWidth: 275 }}>
