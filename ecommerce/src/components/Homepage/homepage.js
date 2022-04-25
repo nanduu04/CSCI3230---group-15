@@ -7,13 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import CustomImageList from "./Images";
-
-const bull = (
-  <Box
-    component="span"
-    sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
-  ></Box>
-);
+import CardActions from "@mui/material/CardActions";
 
 export default function HomePage() {
   return (
@@ -23,20 +17,28 @@ export default function HomePage() {
         <Card sx={{ minWidth: 275 }}>
           <CardContent style={{ color: "white", backgroundColor: "orange" }}>
             <Typography variant="h3" component="div" style={{ color: "blue" }}>
-              Ontario Tech Merch
+              Home Design Ecommerce
             </Typography>
             <Typography
-              sx={{ mb: 3 }}
+              sx={{ m: 1 }}
               style={{ color: "white", fontFamily: "ariel" }}
             >
               Campus Bookstore
             </Typography>
-            <Typography variant="h4" component="div">
+            <Typography variant="h6" component="div">
               You can customize a PROGRAM SWEATER (Hoodie or Crewneck) at the
               Campus store. We have 8 colors to choose from, minimum order of 12
               pieces. Get an additional 20% discount on the order. For more
               information please contact the Campus store.
             </Typography>
+            <CardActions>
+              <Button
+                style={{ backgroundColor: "white", fontFamily: "ariel" }}
+                size="large"
+              >
+                Shop Here
+              </Button>
+            </CardActions>
           </CardContent>
         </Card>
       </Container>
