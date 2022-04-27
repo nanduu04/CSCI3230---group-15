@@ -2,7 +2,6 @@
 ## Sailesh Sharma, Hubart Giang, Nandu Pokhrel
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 This is a ecommerce website where we can view items, add them to cart and see the prices.
 
