@@ -4,9 +4,8 @@ import {
     Flex,
     Link
 } from '@chakra-ui/react';
-import ProductCard from './Product/ProductCard'
+import Product from './Products/Product.js' 
 import Filters from './FilterDrawer'
-import Values from './Values';
 import { Link as lee } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 
@@ -21,7 +20,7 @@ export default function Products() {
                 </Flex>
             </Box>
             <Flex justifyContent={'center'} flexWrap={'wrap'} >
-                {products.map(product => <Link to={`/shop/${product.id}`} as={lee} ><ProductCard data={product} /></Link>)}
+                {products.map(product => <Link to={`/shop/${product.id}`} as={lee} ><Product data={product} /></Link>)}
             </Flex>
         </Box >
     );
