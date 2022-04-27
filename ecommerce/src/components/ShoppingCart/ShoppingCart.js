@@ -37,10 +37,12 @@ export const ShoppingCart = () => {
             menuVariant="dark"
           >
             {productsCart?.map((product) => {
-              return <ShoppingCartItem key={product.id} item={product} />;
+              return <ShoppingCartItem key={product.id} item={product}/>;
             })}
             <NavDropdown.Divider />
-            <NavDropdown.Item>Total: ${totalPrice} </NavDropdown.Item>
+            <NavDropdown.Item id ="total">Total: ${totalPrice} </NavDropdown.Item>
+            <NavDropdown.Item href="#/clear_cart"  id="clear" >Clear Cart</NavDropdown.Item>
+            <NavDropdown.Item href="#/checkout"  id="checkout" >Checkout</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

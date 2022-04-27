@@ -2,3 +2,31 @@
     height: 100px;
     width: 100px;
 }
+
+#clear{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(135, 52, 52);
+}
+
+#total {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(55, 162, 38);
+    text-decoration: underline;
+}
+
+#shop_item{
+    background-color: rgb(186, 184, 184);
+
+}
+
+#cart_item {
+    border:1px solid rgb(97, 97, 230);
+}
+
+#checkout{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(209, 199, 0);
+}
