@@ -44,7 +44,7 @@ npm install
 npm start
 ```
 
-if npm does not work, we can always try with `node` 
+if npm does not work, we can always try with `yarn` 
 
 ```sh
 cd ecommerce
