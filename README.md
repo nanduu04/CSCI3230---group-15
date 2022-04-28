@@ -48,3 +48,7 @@ yarn start
 ## License
 
 MIT
+
+ScreenShots: 
+<img width="1904" alt="Screen Shot 2022-04-27 at 10 42 14 PM" src="https://user-images.githubusercontent.com/46660368/165666118-7a8f3cff-e3d4-4929-8ead-a98d61c5d01c.png">
+
