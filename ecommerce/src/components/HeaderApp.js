@@ -22,11 +22,11 @@ export const HeaderApp = () => (
         Final Project
       </Navbar.Brand>
       <ShoppingCart />
-      <Link to={'/'}>Home</Link>
+      {/* <Link to={'/'}>Home</Link>
       <Link to={'/products'}>Products</Link>
       <Link to={'/login'}>Login</Link>
       <Link to='/signup'>Signup</Link>
-      <Link to={'/admin'}>Admin</Link>
+      <Link to={'/admin'}>Admin</Link> */}
     </Container>
   </Navbar>
 );
