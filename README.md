@@ -59,5 +59,7 @@ MIT
 ScreenShots: 
 <img width="1904" alt="Screen Shot 2022-04-27 at 10 42 14 PM" src="https://user-images.githubusercontent.com/46660368/165666118-7a8f3cff-e3d4-4929-8ead-a98d61c5d01c.png">
 
-![Capture](https://user-images.githubusercontent.com/25020059/165679803-ac6a0638-f963-4977-86e6-1456d8b73acb.PN![checkout](https://user-images.githubusercontent.com/25020059/165679900-e88e6735-f243-4f35-b149-976363a1cb61.PNG)
-G)
+
+![Capture](https://user-images.githubusercontent.com/25020059/165679960-ee76a829-8bff-4573-9373-3c204d309c4a.PNG)
+
+![checkout](https://user-images.githubusercontent.com/25020059/165679966-c40d324a-9fe9-4ba5-8382-84b01e4fcdff.PNG)
