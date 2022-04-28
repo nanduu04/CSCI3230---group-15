@@ -1,6 +1,12 @@
 # CSCI 3020U Web Dev Final Project
 ## Sailesh Sharma, Hubert Giang, Nandu Pokhrel
 
+| Group Member Name | GitHub Username (GitHub URL)|
+| :------------------------:|:--------------------------------------:|
+| Sailesh Sharma | [sailesh10](https://github.com/sailesh10) |
+| Nandu Pokhrel | [nanduu04](https://github.com/nanduu04) |
+| Hubert Giang | [TheHub5](https://github.com/TheHub5) |
+
 Presentation File: https://docs.google.com/presentation/d/1lyNrdfS2HIst6ohSWiF1C-POJMaqFpCfxLikU4GFnsk/edit?usp=sharing 
 
 This is a ecommerce website where we can view items, add them to cart and see the prices.
