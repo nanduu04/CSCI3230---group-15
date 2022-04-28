@@ -15,7 +15,7 @@ This is a ecommerce website where we can view items, add them to cart and see th
 
 - Homepage displaying the information about the website
 - Shopping page showing price of the items
-- Adding items in the cart which automatically adds up the amount
+- Adding items in the cart which automatically adds up the amount. Add with the "Add to Cart" button
 - "Checkout" button in cart links to a checkoutpage (payment)
 
 ## Tech
