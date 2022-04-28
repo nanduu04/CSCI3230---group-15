@@ -14,7 +14,7 @@ const App = () => {
       <Container>
         <div className="App">
           <Router>
-            <Route path='/' element={<HomePage />} />
+            {/* <Route path='/' element={<HomePage />} /> */}
             {/* <Route path='/products/:productId' element={<Product />} />
             <Route path='/login' element={<Login />} />
             <Route path='/signup' element={<SignUp />} />
