@@ -41,7 +41,7 @@ export const ShoppingCart = () => {
             })}
             <NavDropdown.Divider />
             <NavDropdown.Item id ="total">Total: ${totalPrice} </NavDropdown.Item>
-            <NavDropdown.Item href="#/clear_cart"  id="clear" >Clear Cart</NavDropdown.Item>
+            <NavDropdown.Item href="#/close_cart"  id="close" >Close Cart</NavDropdown.Item>
             <NavDropdown.Item href="https://thehub5.github.io/"  id="checkout" >Checkout</NavDropdown.Item>
           </NavDropdown>
         </Nav>
