@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container } from "react-bootstrap";
 import logo from "../logo.svg";
 import { ShoppingCart } from "./ShoppingCart/ShoppingCart";
-import { Link } from 'react-router-dom';
+import { Button } from "react-bootstrap";
 
 const style = {
   marginBottom: "30px",
@@ -22,11 +22,13 @@ export const HeaderApp = () => (
         Final Project
       </Navbar.Brand>
       <ShoppingCart />
-      {/* <Link to={'/'}>Home</Link>
-      <Link to={'/products'}>Products</Link>
-      <Link to={'/login'}>Login</Link>
-      <Link to='/signup'>Signup</Link>
-      <Link to={'/admin'}>Admin</Link> */}
+      <div>
+        <Button>Home</Button>
+        <Button>Products</Button>
+        <Button>Login</Button>
+        <Button>SignUp</Button>
+        <Button>Admin</Button>
+      </div>
     </Container>
   </Navbar>
 );
