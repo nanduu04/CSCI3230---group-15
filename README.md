@@ -1,7 +1,7 @@
 # CSCI 3020U Web Dev Final Project
 ## Sailesh Sharma, Hubert Giang, Nandu Pokhrel
 
-
+Presentation File: https://docs.google.com/presentation/d/1lyNrdfS2HIst6ohSWiF1C-POJMaqFpCfxLikU4GFnsk/edit?usp=sharing 
 
 This is a ecommerce website where we can view items, add them to cart and see the prices.
 
