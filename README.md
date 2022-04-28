@@ -62,4 +62,5 @@ ScreenShots:
 
 ![Capture](https://user-images.githubusercontent.com/25020059/165679960-ee76a829-8bff-4573-9373-3c204d309c4a.PNG)
 
-![checkout](https://user-images.githubusercontent.com/25020059/165679966-c40d324a-9fe9-4ba5-8382-84b01e4fcdff.PNG)
+![checkout](https://user-images.githubusercontent.com/25020059/165680135-1bc6d74e-089f-42a1-a559-3eb8b1f7372e.PNG)
+
