@@ -185,7 +185,7 @@
       "id": 21,
       "title": "Classic Grey Womens T Shirt Short Sleeve",
       "price": 14.99,
-      "description": "65%Cotton,35%Spandex, Features: Casual, Short Sleeve, Classic Grey Design, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "description": "65%Cotton, 35%Spandex, 100% comfort. Features: Casual, Short Sleeve, Classic Grey Design, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
       "category": "women's clothing",
       "image": "https://www.pngitem.com/pimgs/m/213-2133873_blank-t-shirt-women-png-download-t-shirt.png",
       "rating": { "rate": 4.0, "count": 145 }
@@ -235,7 +235,7 @@
       "id": 26,
       "title": "Marvel Spider-Man Deluxe 13-Inch-Scale Thwip Blast Integrated Suit Spider-Man Action Figure, Suit Upgrades, and Web Blaster Accessory",
       "price": 39.99,
-      "description": "•2-IN-1 SPIDER-MAN ACTION FIGURE WITH SWITCHABLE SPIDER ARMOR: Switch it up Spidey-style with this deluxe 13-inch-scale, 2-in-1 Spider-Man action figure! Geared up in his Integrated Suit, this figure comes with alternate armor chest piece",
+      "description": "•2-IN-1 SPIDER-MAN ACTION FIGURE WITH SWITCHABLE SPIDER ARMOR: Switch it up Spidey-style with this deluxe 13-inch-scale, 2-in-1 Spider-Man action figure! Geared up in his Integrated Suit, this figure comes with alternate armor chest pieces.",
       "category": "toys",
       "image": "https://i5.walmartimages.ca/images/Enlarge/394/967/6000204394967.jpg",
       "rating": { "rate": 5.0, "count": 145 }
@@ -249,7 +249,68 @@
       "category": "toys",
       "image": "https://i5.walmartimages.ca/images/Enlarge/010/574/999999-818567010574.jpg",
       "rating": { "rate": 3.9, "count": 145 }
+    }, 
+
+    {
+      "id": 28,
+      "title": "Kalorik Digital Air Fryer",
+      "price": 59.99,
+      "description": "Using Rapid Hot Air Technology, this smart appliance cooks food fast, with no preheating required. Make deliciously crispy French fries, onion rings, chicken, shrimp, and even sweet treats like cakes - without the need for oil, as the Kalorik Digital Air Fryer offers a healthy alternative to deep fried food (without sacrificing taste)! The touchscreen digital control panel features 8 presets for foolproof cooking. The dishwasher-safe basket and trivet make for easy cleanup.",
+      "category": "appliances",
+      "image": "https://i5.walmartimages.ca/images/Enlarge/492/803/6000201492803.jpg",
+      "rating": { "rate": 3.9, "count": 145 }
+    },
+
+    {
+      "id": 29,
+      "title": "TOSHIBA 25L 6-slice Stainless Steel Mechanical Toaster Oven with Convection",
+      "price": 79.99,
+      "description": "The Toshiba Mechanical Toaster Oven has multiple functions: Toast/Bake/Broil/Convection. Its spacious 6 slice interior capacity meets everyday family cooking needs. Even cooking is achieved through the coordination of upper, lower heating elements and convection fan. The temperature can be set from 100F to 450F degrees for up to 24 hours.",
+      "category": "appliances",
+      "image": "https://i5.walmartimages.ca/images/Enlarge/893/164/6000203893164.jpg",
+      "rating": { "rate": 3.9, "count": 145 }
+    },
+
+    {
+      "id": 30,
+      "title": "Cuisinart 2-in-1 Food Processor & Blender",
+      "price": 99.99,
+      "description": "Every chef needs a helping hand in the kitchen. Enjoy the versatile talents of the Cuisinart 2-in-1 Food Processor & Blender. Great for shakes, smoothies, sauces, purees, and more.Make the smart choice in everyday cooking with this blender and food processor 2-in-1 set.",
+      "category": "appliances",
+      "image": "https://i5.walmartimages.ca/images/Enlarge/338/561/6000204338561.jpg",
+      "rating": { "rate": 3.9, "count": 145 }
+    },
+
+    {
+      "id": 31,
+      "title": "Costway 20V 2.0Ah Cordless Leaf Blower Sweeper 130 MPH Blower Battery & Charger Included",
+      "price": 129.99,
+      "description": "Do you have trouble clearing dust from dead spots? Our lithium battery powered leaf blower is designed to solve this problem. With air speed of 130 mph and 90 cfm air volume, it can easily clear dust from hard surface like driveways, decks, garages, and especially hard-to-reach areas.After charging for 80 minutes, this leaf blower has an extremely long standby time, up to 25 minutes, which can help you finish a lot of clearing work.",
+      "category": "outdoor",
+      "image": "https://i5.walmartimages.com/asr/e23af2ba-161d-473c-8720-2dccd9a802bc_1.9f18b02b8b496ac22d512a26ad33ee58.jpeg",
+      "rating": { "rate": 3.9, "count": 145 }
+    },
+
+    {
+      "id": 31,
+      "title": "Yard Machines 21' 159cc Self Propelled Mower",
+      "price": 399.99,
+      "description": "This Yard Machines gas self-propelled lawn mower features a front wheel drive self-propelled single-speed transmission. In addition, it has a 3-in-1 deck which includes side discharge, bag, and mulching. Equipped with an autochoke that eliminates the need for priming or manual choking of the engine, the user simply pulls the cord to start. Powered by a Powermore® 159cc overhead valve engine that provides you with the power needed to get the job done.",
+      "category": "outdoor",
+      "image": "https://i5.walmartimages.ca/images/Enlarge/176/985/6000199176985.jpg",
+      "rating": { "rate": 3.9, "count": 145 }
+    },
+
+    {
+      "id": 32,
+      "title": "Sun Joe 24V-X2-CS16 48-Volt iON+ Cordless Chain Saw Kit, 16-Inch, W/ 2 x 2.0-Ah Batteries and Charger",
+      "price": 299.99,
+      "description": "SUN JOE is powered by the two included iON+ 24-Volt 2.0 Ah batteries providing up to 40 cuts of 4' x 4' pine per charge! The robust 1,200 Watt motor and self-lubricating 16-inch bar and chain cut cleanly through branches and logs up to 15.5” thick, to quickly clear away brush and branches. The onboard, 5 fl oz oiler keeps the bar and chain fully lubricated for continuous cutting, and the tool-less chain tensioner provides a quick fix on-the-go with just a twist.",
+      "category": "outdoor",
+      "image": "https://i5.walmartimages.ca/images/Enlarge/020/582/6000202020582.jpg",
+      "rating": { "rate": 3.9, "count": 145 }
     }
+
 
 
 
