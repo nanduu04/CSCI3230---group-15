@@ -14,9 +14,11 @@ This is a ecommerce website where we can view items, add them to cart and see th
 ## Features
 
 - Homepage displaying the information about the website
+- Product list (stored in a Json file) with the id, title, price, description, category, image, and rating attributes.
 - Shopping page showing price of the items
 - Adding items in the cart which automatically adds up the amount. Add with the "Add to Cart" button
-- "Checkout" button in cart links to a checkoutpage (payment)
+- "Checkout" button in cart links to a checkout page (payment page)
+- Use of the React framework and React state variables
 
 ## Tech
 
@@ -56,11 +58,22 @@ yarn start
 
 MIT
 
-ScreenShots: 
-<img width="1904" alt="Screen Shot 2022-04-27 at 10 42 14 PM" src="https://user-images.githubusercontent.com/46660368/165666118-7a8f3cff-e3d4-4929-8ead-a98d61c5d01c.png">
+ScreenShots:
+
+![Home](https://user-images.githubusercontent.com/25020059/165699197-b60359c5-7b65-475f-84ce-636249719d7f.PNG)
+
+![Home1](https://user-images.githubusercontent.com/25020059/165699365-f22085ea-b520-40d6-a6b4-0e154c783d4c.PNG)
+
+![Home2](https://user-images.githubusercontent.com/25020059/165699455-8501cd64-5d16-4e23-80f4-2951b1ba0fde.PNG)
+
+![Home2 5](https://user-images.githubusercontent.com/25020059/165699950-2da49361-3b62-4919-b7a7-0ba1fc1dbace.PNG)
 
 
-![Capture](https://user-images.githubusercontent.com/25020059/165679960-ee76a829-8bff-4573-9373-3c204d309c4a.PNG)
+![Home3](https://user-images.githubusercontent.com/25020059/165699735-da32aaf7-3a1a-4711-9af8-5afa0555d678.png)
+
+
+![Capture](https://user-images.githubusercontent.com/25020059/165698401-4869ac65-8bbe-4710-b52b-4c2eb103c218.PNG)
+
 
 ![checkout](https://user-images.githubusercontent.com/25020059/165680135-1bc6d74e-089f-42a1-a559-3eb8b1f7372e.PNG)
 
